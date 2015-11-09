@@ -1,4 +1,4 @@
-FROM	ubuntu:vivid
+FROM	ubuntu:wily
 MAINTAINER	BPI  "BPI-SINOVOIP"
 
 RUN	apt-get update && apt-get install -y \
