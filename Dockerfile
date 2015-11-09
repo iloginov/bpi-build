@@ -1,4 +1,4 @@
-FROM	ubuntu:12.04.5
+FROM	ubuntu:vivid
 MAINTAINER	BPI  "BPI-SINOVOIP"
 
 RUN	apt-get update && apt-get install -y \
@@ -15,7 +15,6 @@ RUN	apt-get update && apt-get install -y \
 	bc \
 	u-boot-tools \
 	device-tree-compiler \
-	ia32-libs \
 	pkg-config \
 	libusb-1.0-0-dev \
 	python-software-properties \
